@@ -42,8 +42,7 @@
 
   <!-- 底部导航 -->
   <view class="bottom-nav">
-  <image class="bottom-nav-bg" src="/assets/icon_bar.png"></image>
-    <!-- <view class="nav-item" bindtap="goToRewards">
+    <view class="nav-item" bindtap="goToRewards">
       <image src="/assets/icon_rewards.png"></image>
       <text>Rewards</text>
     </view>
@@ -52,8 +51,7 @@
       <text>Parent View</text>
     </view>
     <view class="nav-item active">
-      <image src="/assets/icon_map.png"></image>
-      <text>Map</text>
+      <image src="/assets/icon_map.png" style="width: 100rpx;height: 100rpx;"></image>
     </view>
     <view class="nav-item" bindtap="goToParentView">
       <image src="/assets/icon_parent1.png"></image>
@@ -62,6 +60,7 @@
     <view class="nav-item" bindtap="goToSettings">
       <image src="/assets/icon_settings.png"></image>
       <text>Settings</text>
-    </view> -->
+    </view>
+    <!-- <image class="bottom-bg" src="/assets/icon_bar.png"></image> -->
   </view>
 </view>

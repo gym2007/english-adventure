@@ -108,12 +108,6 @@
   z-index: 999;
 }
 
-.bottom-nav-bg{
-  position: absolute;
-  height: 70px;
-  width: 100%;
-}
-
 .nav-item {
   display: flex;
   flex-direction: column;
@@ -124,11 +118,25 @@
 
 .nav-item.active {
   color: #3b82f6;
+  width: 20%;
 }
 
 .nav-item image {
-  width: 60rpx;
-  height: 60rpx;
+  width: 50rpx;
+  height: 50rpx;
+  z-index: 1;
+}
+
+.nav-item.active image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.bottom-bg{
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  z-index: -10;
 }
 
 .avatar-image {
