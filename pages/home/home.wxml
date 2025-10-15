@@ -42,7 +42,7 @@
 
   <!-- 底部导航 -->
   <view class="bottom-nav">
-    <!-- <image class="bottom-bg" src="/assets/icon_bar.png"></image> -->
+    <image class="bottom-bg" src="/assets/icon_bar.png"></image>
     <view class="nav-item" bindtap="goToRewards">
       <image src="/assets/icon_rewards.png"></image>
       <text>Rewards</text>
