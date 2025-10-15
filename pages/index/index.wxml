@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    <view class="userinfo">
+      <open-data type="userAvatarUrl" lang="zh_CN" class="userinfo-avatar" binderror="onLoadError" />
+      <open-data type="userNickName" lang="zh_CN" class="userinfo-nickname"/>
+    </view>
+    <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+    </view>
+    
+    <!-- 添加跳转到home页面的按钮 -->
+    <view class="navigation-buttons">
+      <button class="home-button" bindtap="navigateToHome">进入主页</button>
+    </view>
+  </view>
+</scroll-view>

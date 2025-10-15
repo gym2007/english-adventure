@@ -1,0 +1,67 @@
+<view class="container">
+  <!-- 顶部信息栏 -->
+  <view class="top-bar">
+    <view class="avatar-container">
+      <image class="avatar-image" src="/assets/avatar.png" mode="aspectFill"></image>
+    </view>
+    <view class="stats">
+      <view class="coins">
+        <!-- <image class="coins-bg" src="/assets/awardBg.png" mode="aspectFill"></image> -->
+        💰 {{coins}}
+      </view>
+      <view class="stars">
+        <!-- <image class="stars-bg" src="/assets/awardBg.png" mode="aspectFill"></image> -->
+      ⭐ {{stars}}</view>
+    </view>
+  </view>
+
+  <!-- 标题 -->
+  <view class="title">English Adventure Island</view>
+
+  <!-- 地图背景 -->
+  <image class="map-bg" src="/assets/backgroup.png" mode="aspectFill"></image>
+
+  <!-- 地图按钮 -->
+  <!-- <view class="map-item word-forest" bindtap="goToWordForest">
+    <image src="/assets/word_forest.png" class="icon"></image>
+    <text>The Word Forest</text>
+  </view> -->
+
+  <view class="map-item phonics-peak" bindtap="goToPhonicsPeak">
+    <image src="/assets/phonics_peak.png" class="icon"></image>
+    <text>Phonics Peak</text>
+  </view>
+<!-- 
+  <view class="map-item dialogue-bay" bindtap="goToDialogueBay">
+    <image src="/assets/dialogue_bay.png" class="icon"></image>
+    <text>The Dialogue Bay</text>
+  </view> -->
+
+  <!-- 主角角色 -->
+  <image class="character" src="/assets/character.png" mode="aspectFit"></image>
+
+  <!-- 底部导航 -->
+  <view class="bottom-nav">
+  <image class="bottom-nav-bg" src="/assets/icon_bar.png"></image>
+    <!-- <view class="nav-item" bindtap="goToRewards">
+      <image src="/assets/icon_rewards.png"></image>
+      <text>Rewards</text>
+    </view>
+    <view class="nav-item" bindtap="goToParentView">
+      <image src="/assets/icon_parent.png"></image>
+      <text>Parent View</text>
+    </view>
+    <view class="nav-item active">
+      <image src="/assets/icon_map.png"></image>
+      <text>Map</text>
+    </view>
+    <view class="nav-item" bindtap="goToParentView">
+      <image src="/assets/icon_parent1.png"></image>
+      <text>Parent View</text>
+    </view>
+    <view class="nav-item" bindtap="goToSettings">
+      <image src="/assets/icon_settings.png"></image>
+      <text>Settings</text>
+    </view> -->
+  </view>
+</view>
